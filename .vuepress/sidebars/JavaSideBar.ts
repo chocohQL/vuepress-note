@@ -1,0 +1,52 @@
+export default [
+    "",
+    {
+        title: "JVM",
+        collapsable: true,
+        children: [
+            "JVM/1.概述.md",
+            "JVM/2.内存结构.md",
+            "JVM/3.内存管理.md",
+            "JVM/4.垃圾回收器.md",
+            "JVM/5.类加载.md",
+            "JVM/6.类加载器.md",
+            "JVM/7.运行机制.md",
+            "JVM/8.编译优化.md",
+            "JVM/9.系统优化.md",
+        ],
+    },
+    {
+        title: "JUC",
+        collapsable: true,
+        children: [
+            "JUC/1.进程线程.md",
+            "JUC/2.Monitor.md",
+            "JUC/3.共享模型.md",
+            "JUC/4.JMM.md",
+            "JUC/5.无锁.md",
+            "JUC/6.ThreadLocal.md",
+            "JUC/7.1.线程池.md",
+            "JUC/7.2.线程池.md",
+            "JUC/8.1.AQS.md",
+            "JUC/8.2.ReentrantLock.md",
+            "JUC/8.3.ConcurrentHashMap.md",
+            "JUC/8.4.JUC其他工具.md",
+            "JUC/异步编程的7种方式.md",
+        ],
+    },
+    {
+        title: "JDK",
+        collapsable: true,
+        children: [
+            "JDK/JDK8.md",
+            "JDK/JDK11.md",
+            "JDK/JDK17.md",
+            "JDK/JDK21.md",
+        ],
+    },
+    {
+        title: "JavaSE",
+        collapsable: true,
+        children: [],
+    },
+];
